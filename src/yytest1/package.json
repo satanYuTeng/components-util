@@ -1,0 +1,32 @@
+{
+  "name": "@component-ci/yytest1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "ythou <houyt_work@163.com>",
+  "homepage": "https://github.com/satanYuTeng/components-util#readme",
+  "license": "ISC",
+  "main": "lib/yytest1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satanYuTeng/components-util.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@component-ci/yytest1.test.js",
+    "build": "father build",
+    "dev": "father dev",
+    "version": "father version"
+  },
+  "bugs": {
+    "url": "https://github.com/satanYuTeng/components-util/issues"
+  }
+}
